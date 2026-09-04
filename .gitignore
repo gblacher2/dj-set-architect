@@ -1,0 +1,27 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+.vite/
+
+# TypeScript and other build metadata
+*.tsbuildinfo
+
+# Local platform and hosting state
+.openai/
+.netlify/
+.agents/
+
+# Local configuration and editor files
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*

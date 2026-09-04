@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* Background colors */
+  --color-bg-base: #1a1a1e;
+  --color-bg-surface: #242428;
+  --color-bg-surface-hover: #2a2a2f;
+  --color-bg-overlay: #1a1a1ecc;
+
+  /* Product Accent (gold/amber) */
+  --color-accent: #D4A843;
+  --color-accent-hover: #E0B84D;
+  --color-accent-muted: #D4A84333;
+  --color-accent-text: #F5D780;
+  --color-accent-fg: #1a1a1e;
+
+  /* Text colors */
+  --color-text-primary: #E8E8EC;
+  --color-text-secondary: #9A9AA0;
+  --color-text-muted: #808088;
+
+  /* Border colors */
+  --color-border-subtle: #2E2E34;
+  --color-border-active: #3E3E46;
+
+  /* Quality score colors (higher = better transition compatibility) */
+  --color-quality-good: #4ADE80;
+  --color-quality-ok: #FBBF24;
+  --color-quality-caution: #FB923C;
+  --color-quality-warning: #F87171;
+
+  /* Priority score colors (higher = more urgent practice need) */
+  --color-priority-critical: #F87171;
+  --color-priority-high: #FB923C;
+  --color-priority-medium: #FBBF24;
+  --color-priority-low: #4ADE80;
+
+  /* Status colors */
+  --color-status-success: #4ADE80;
+  --color-status-warning: #FBBF24;
+  --color-status-danger: #F87171;
+  --color-status-info: #60A5FA;
+}
+
+.numeric {
+  font-variant-numeric: tabular-nums lining-nums;
+}
