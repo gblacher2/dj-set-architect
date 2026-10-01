@@ -8,8 +8,6 @@ Set Architect is a local-first web application designed to help hobbyist and beg
 
 ## 📸 Interface Screenshot & Sitemap
 
-![Set Architect Desktop Interface Mockup](./public/set-architect-preview.png)
-
 ```text
 +-----------------------------------------------------------------------------------+
 |  SET ARCHITECT                                [Library] [Set Builder] [Practice]  |
@@ -29,7 +27,7 @@ Set Architect is a local-first web application designed to help hobbyist and beg
 
 ## 🚀 Technology Stack
 
-- **Framework**: React 18 + TypeScript + Vite
+- **Framework**: React 19 + TypeScript + Vite
 - **Styling**: Vanilla CSS + Tailwind CSS utilities (Restrained dark mode theme)
 - **Local Persistence**: Dexie.js (IndexedDB wrapper) — *Sole persistent source of truth*
 - **State Management**: Zustand — *Transient app state, toasts & undo/redo snapshots*
@@ -48,7 +46,6 @@ Set Architect is a local-first web application designed to help hobbyist and beg
 | `npm run build` | Compile TypeScript and produce production build bundle |
 | `npm run lint` | Run ESLint across all source files |
 | `npm run test` | Run full Vitest unit, component, and storage test suite |
-| `npm run preview` | Serve production build locally for verification |
 
 ---
 
